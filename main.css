@@ -1,0 +1,42 @@
+/*================================================================
+    HEADER TITLE STYLES
+================================================================*/
+/* General */
+header div {
+  height: 10vh;
+}
+
+.logo, .title {
+  font-size: 4vh;
+  padding-top: 2vh;
+}
+
+/* Buttons */
+.button a{
+  display: block;
+  background-color: #FFF;
+  width: 8rem;
+  height: 3rem;
+  color: #337AB7;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.35rem 0;
+  margin: 2.7vh 0;
+  border-radius: 9999px;
+  border: 2px solid #FFF;
+}
+
+#sign-in {
+  margin-left: 12rem;
+}
+
+.button a:hover {
+  background-color: #337AB7;
+  color: #FFF;
+}
+
+.button a:active {
+  background-color: #000;
+}

@@ -40,3 +40,31 @@ header div {
 .button a:active {
   background-color: #000;
 }
+
+
+/*================================================================
+    NAV STYLES
+================================================================*/
+nav {
+  border-bottom: 2px solid #337AB7;
+  background-color: #b2cde4;
+}
+
+nav div {
+  height: 7vh;
+}
+
+nav a {
+  display: block;
+  color: #337AB7;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+  margin-top: 1rem;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #337AB7;
+  padding-bottom: 0.1rem;
+  text-decoration: none;
+}

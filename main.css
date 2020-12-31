@@ -2,17 +2,13 @@
     HEADER TITLE STYLES
 ================================================================*/
 /* General */
-header div {
-  height: 10vh;
-}
-
 .logo, .title {
   font-size: 4vh;
   padding-top: 2vh;
 }
 
 /* Buttons */
-.button a{
+.button{
   display: block;
   background-color: #FFF;
   width: 8rem;
@@ -22,21 +18,34 @@ header div {
   letter-spacing: 0.15rem;
   text-decoration: none;
   text-align: center;
-  padding: 0.35rem 0;
-  margin: 2.7vh 0;
+  padding: 0.3rem 0;
+  margin: 1.5rem 0 0 5rem;
   border-radius: 9999px;
   border: 2px solid #FFF;
 }
 
-#sign-in {
-  margin-left: 12rem;
-}
-
-.button a:hover {
+.button:hover {
   background-color: #337AB7;
   color: #FFF;
+  text-decoration: none;
 }
 
-.button a:active {
+.button:active {
   background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    margin: 0 0 1rem 19rem;
+  }
+  
+  .title {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .button {
+    margin: 0 0 2rem 13rem;
+  }
 }

@@ -44,7 +44,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .button {
     margin: 0 0 2rem 13rem;
   }
@@ -56,10 +56,6 @@
 nav {
   border-bottom: 2px solid #337AB7;
   background-color: #b2cde4;
-}
-
-nav div {
-  height: 7vh;
 }
 
 nav a {
@@ -75,4 +71,18 @@ nav a:hover {
   border-bottom: 2px solid #337AB7;
   padding-bottom: 0.1rem;
   text-decoration: none;
+}
+
+nav a:active {
+  color: #000;
+}
+
+@media screen and (max-width: 500px) {
+  nav li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #337AB7;
+    margin-bottom: 1rem;
+  }
 }

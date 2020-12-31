@@ -7,6 +7,10 @@
   padding-top: 2vh;
 }
 
+.title p {
+  text-align: center;
+}
+
 /* Buttons */
 .button{
   display: block;
@@ -85,4 +89,11 @@ nav a:active {
     border-bottom: 2px solid #337AB7;
     margin-bottom: 1rem;
   }
+}
+
+/*================================================================
+    PARAGRAPH STYLES
+================================================================*/
+p {
+  text-align: justify;
 }

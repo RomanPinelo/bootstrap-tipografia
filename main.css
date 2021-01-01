@@ -62,13 +62,17 @@ nav {
   background-color: #b2cde4;
 }
 
+nav div {
+  height: 12vh;
+}
+
 nav a {
   display: block;
   color: #337AB7;
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 0.15rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 nav a:hover {
@@ -88,6 +92,10 @@ nav a:active {
     text-align: center;
     border-bottom: 2px solid #337AB7;
     margin-bottom: 1rem;
+  }
+  
+  nav div {
+    height: 50vh;
   }
 }
 
